@@ -1,0 +1,26 @@
+@import "../../../styles.scss";
+
+.services {
+  display: flex;
+  flex-direction: column;
+  .service {
+    display: flex;
+    .service-lottie {
+      min-width: 10rem;
+      width: 10rem;
+    }
+    .service-details {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .service-title {
+        font-size: 1.8rem;
+      }
+      .service-description {
+        font-size: 0.8rem;
+        font-weight: 300;
+        line-height: 1.2rem;
+      }
+    }
+  }
+}

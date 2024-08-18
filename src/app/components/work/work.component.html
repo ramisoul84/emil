@@ -1,0 +1,16 @@
+<section id="work">
+  <h1 class="section-title">WORK</h1>
+  <p class="section-description">
+    I worked with clients around the globe, to design and implement their
+    vision, witch is always my main starting point, as a multidisciplinary
+    designer, i can contribute to your project in many different ways and can
+    give your vision the shape and life that it needs, I offer more than 10
+    years of design experience in these fields:
+  </p>
+  <div class="work-items">
+    <div class="work" *ngFor="let item of work">
+      <h1 class="work-title">{{ item.title }}</h1>
+      <ng-lottie [options]="item.options" />
+    </div>
+  </div>
+</section>

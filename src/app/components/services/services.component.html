@@ -1,0 +1,21 @@
+<section id="services">
+  <h1 class="section-title">SERVICES</h1>
+  <p class="section-description">
+    I worked with clients around the globe, to design and implement their
+    vision, witch is always my main starting point, as a multidisciplinary
+    designer, i can contribute to your project in many different ways and can
+    give your vision the shape and life that it needs, I offer more than 10
+    years of design experience in these fields:
+  </p>
+  <div class="services">
+    <div class="service" *ngFor="let service of services">
+      <div class="service-lottie">
+        <ng-lottie [options]="service.options" />
+      </div>
+      <div class="service-details">
+        <p class="service-title">{{ service.title }}</p>
+        <p class="service-description">{{ service.description }}</p>
+      </div>
+    </div>
+  </div>
+</section>

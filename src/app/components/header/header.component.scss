@@ -1,0 +1,19 @@
+@import "../../../styles.scss";
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  .logo {
+    color: $ColorOrangeLight;
+  }
+  nav {
+    display: flex;
+    gap: 1rem;
+    a {
+      color: $ColorWhite;
+      text-decoration: none;
+    }
+  }
+}
