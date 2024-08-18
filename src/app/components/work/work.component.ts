@@ -11,14 +11,14 @@ export class WorkComponent {
       title: 'Birds',
       description: 'description',
       options: {
-        path: '/assets/birds.json',
+        path: 'assets/birds.json',
       },
     },
     {
       title: 'Waha',
       description: 'description',
       options: {
-        path: '/assets/waha.json',
+        path: 'assets/waha.json',
       },
     },
   ];

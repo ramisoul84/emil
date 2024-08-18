@@ -1,0 +1,10 @@
+@import "../../../styles.scss";
+
+.items {
+  display: flex;
+  justify-content: space-between;
+  .icon {
+    width: 2rem;
+    fill: $ColorOrangeLight;
+  }
+}

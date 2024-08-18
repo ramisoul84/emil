@@ -20,7 +20,7 @@ export class ServicesComponent {
       description:
         'I offer my architectural design services in the fields of interier, exterior and landscape design, my experience and skills across these areas is tested by numbers challenges and projects.',
       options: {
-        path: '/assets/design.json',
+        path: 'assets/design.json',
       },
     },
     {
@@ -28,7 +28,7 @@ export class ServicesComponent {
       description:
         'I offer consultation and direction service for visual art project across all disciplines, my experience in this field is rich, and i can help you reach your clients with the appropriate message.',
       options: {
-        path: '/assets/art.json',
+        path: 'assets/art.json',
       },
     },
     {
@@ -36,7 +36,7 @@ export class ServicesComponent {
       description:
         'I visualised through my career a lot of competition as well as realised projects, and I will use this experience with visuals in the service of your architectural project, to represent it in the most appropriate and captivating way.',
       options: {
-        path: '/assets/visualisation.json',
+        path: 'assets/visualisation.json',
       },
     },
   ];

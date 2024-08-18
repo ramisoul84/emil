@@ -8,6 +8,6 @@ import { AnimationOptions } from 'ngx-lottie';
 })
 export class InterestsComponent {
   options: AnimationOptions = {
-    path: '/assets/interests.json',
+    path: 'assets/interests.json',
   };
 }

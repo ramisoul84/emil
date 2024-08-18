@@ -19,13 +19,14 @@ html {
 
 body {
   margin: 0 6rem;
+  margin-top: 4rem;
   background-color: $ColorBg;
   font-family: $FontInter;
   color: $ColorWhite;
 }
 
 section {
-  padding: 2rem 0;
+  padding: 3rem 0;
   .section-title {
     background: $ColorGradient;
     color: transparent;

@@ -1,4 +1,4 @@
-<section id="timeline">
+<section id="timeline" #timeline>
   <h1 class="section-title">TIMELINE</h1>
   <p class="section-description">
     I was lucky to have the opportunity to work in different countries, with
@@ -7,5 +7,5 @@
     here in this interactive timeline you can know all about that in greater
     detail:
   </p>
-  <ng-lottie [options]="options" class="interests-lottie" />
+  <ng-lottie [options]="options" (animationCreated)="onAnimate($event)" />
 </section>
